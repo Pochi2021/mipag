@@ -235,13 +235,12 @@ h1, h2, h3, h4, h5, h6
 {
     font-size: 1.8em;
     padding-top: 10px;
-
     color: #f705c7;
 }
 
 .main__about__description .column:nth-child(2)
 {
-    padding: 0px;
+    padding: 15px;
     text-align: justify;
     color: #000;
     
