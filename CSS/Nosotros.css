@@ -1,3 +1,17 @@
+.ir-arriba
+{
+    display: inline-block;
+    padding: 15px;
+    background: #f705c7;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    border-radius: 50%;
+}
+
 .our-team
 {
     text-align: center;
@@ -30,15 +44,10 @@
 
 .our-team__txt
 {
-    padding: 15px;
+    padding: 10px;
     text-align: justify;
 }
 
-li
-{
-    padding: 15px;
-    text-align: justify;
-}
 
 @media screen and (min-width:480px)
 {
