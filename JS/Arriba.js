@@ -1,17 +1,17 @@
-$(document).ready(function(){
+function irArriba(){
 
-	$('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px'
-		}, 300);
-	});
+    window.addEventListener('scroll', () =>{
+        var scroll = document.documentElement.scrollTop;
+        console.log(scroll);
+        var botonArriba = document.getElementById('botonArriba');
 
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
-		} else {
-			$('.ir-arriba').slideUp(300);
-		}
-	});
+        if(scroll > 300){
+            botonArriba.style.left = 850 + "px";
+        }
+        else{
+            botonArriba.style.left = -900 + "px";
+        }
+    })
+}
 
-});
+irArriba();

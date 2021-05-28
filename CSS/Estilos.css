@@ -11,6 +11,20 @@ body
     margin: 0;
     font-weight: bold;
 }
+
+#botonArriba
+{
+    padding: 1px;
+    background: #f705c7;
+    position: fixed;
+    bottom: 50px;
+    width: 60px;
+    right: -100px;
+    border-radius: 50%;
+    left: 860px;
+    transition: all 5s;
+}
+
 /*---------------Estilos base---------------*/
 img
 {
@@ -103,20 +117,6 @@ h1, h2, h3, h4, h5, h6
     text-align: center;
     cursor: pointer;
     font-size: 2.2em;
-}
-
-.ir-arriba
-{
-    display: inline-block;
-    padding: 15px;
-    background: #f705c7;
-    font-size: 20px;
-    color: #fff;
-    cursor: pointer;
-    position: fixed;
-    bottom: 35px;
-    right: 20px;
-    border-radius: 50%;
 }
 
 .social-icon
