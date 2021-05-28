@@ -17,11 +17,11 @@ body
     padding: 1px;
     background: #f705c7;
     position: fixed;
-    bottom: 50px;
+    bottom: 40px;
     width: 60px;
-    right: -100px;
+    /* right: -100px; */
     border-radius: 50%;
-    left: 860px;
+    left: 80%;
     transition: all 5s;
 }
 

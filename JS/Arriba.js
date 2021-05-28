@@ -6,10 +6,10 @@ function irArriba(){
         var botonArriba = document.getElementById('botonArriba');
 
         if(scroll > 300){
-            botonArriba.style.left = 850 + "px";
+            botonArriba.style.left = 80 + "%";
         }
         else{
-            botonArriba.style.left = -900 + "px";
+            botonArriba.style.left = 110 + "%";
         }
     })
 }
