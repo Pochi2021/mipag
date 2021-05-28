@@ -14,15 +14,14 @@ body
 
 #botonArriba
 {
-    padding: 1px;
-    background: #f705c7;
     position: fixed;
-    bottom: 40px;
-    width: 60px;
-    /* right: -100px; */
+    bottom: 50px;
+    right: -100px;
+    width: 40px;
+    background: #f705c7;
     border-radius: 50%;
-    left: 80%;
-    transition: all 5s;
+    padding: 1px;
+    transition: all 1s;
 }
 
 /*---------------Estilos base---------------*/

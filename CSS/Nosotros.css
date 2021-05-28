@@ -1,15 +1,13 @@
-.ir-arriba
+#botonArriba
 {
-    display: inline-block;
-    padding: 15px;
-    background: #f705c7;
-    font-size: 20px;
-    color: #fff;
-    cursor: pointer;
     position: fixed;
-    bottom: 35px;
-    right: 20px;
+    bottom: 50px;
+    right: -100px;
+    width: 40px;
+    background: #f705c7;
     border-radius: 50%;
+    padding: 1px;
+    transition: all 1s;
 }
 
 .our-team

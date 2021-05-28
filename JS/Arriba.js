@@ -1,15 +1,14 @@
 function irArriba(){
-
-    window.addEventListener('scroll', () =>{
+    window.addEventListener('scroll', () => {
         var scroll = document.documentElement.scrollTop;
         console.log(scroll);
         var botonArriba = document.getElementById('botonArriba');
 
         if(scroll > 300){
-            botonArriba.style.left = 80 + "%";
+            botonArriba.style.right = 10 + "px";
         }
         else{
-            botonArriba.style.left = 110 + "%";
+            botonArriba.style.right = -100 + "px";
         }
     })
 }
